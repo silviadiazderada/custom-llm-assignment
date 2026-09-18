@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="350" viewBox="0 0 760 350">
+<rect width="760" height="350" fill="white"/><g font-family="sans-serif" font-size="14" fill="#22344a">
+<text x="60" y="25">nanoGPT: fixed-panel next-token loss (lower is better)</text>
+<path d="M60 45V290H710" fill="none" stroke="#aab8c6"/><text x="35" y="295">0</text>
+<text x="12" y="55">6.4</text><text x="60" y="315">0 steps</text><text x="620" y="315">3000 steps</text>
+<polyline points="60.0,76.4 380.0,261.9 700.0,262.0" fill="none" stroke="#247b72" stroke-width="3"/>
+<polyline points="60.0,77.5 380.0,263.0 700.0,262.8" fill="none" stroke="#b77515" stroke-width="3"/>
+<text x="170" y="340" fill="#247b72">Training panel</text><text x="380" y="340" fill="#b77515">Validation panel</text></g></svg>

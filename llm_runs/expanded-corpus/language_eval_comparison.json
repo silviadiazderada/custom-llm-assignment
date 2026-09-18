@@ -1,0 +1,278 @@
+{
+  "untrained": {
+    "suite_id": "synthetic-language-v1",
+    "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+    "model_sha256": "5a54bf1bb129a4ada1bc883baeefa23cb7e3498372fce76804c4a9f3d0b06ff4",
+    "stage": "untrained",
+    "settings": {
+      "seed": 2026,
+      "temperature": 0.8,
+      "max_tokens": 24
+    },
+    "metric": "highest-probability answer among four single-word choices; ties get zero",
+    "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
+    "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
+    "overall": {
+      "correct": 7,
+      "total": 48,
+      "scorable": 24,
+      "success_rate_all_cases": 0.14583333333333334,
+      "accuracy_scorable_cases": 0.2916666666666667,
+      "coverage": 0.5
+    },
+    "by_group": {
+      "extend_corpus": {
+        "correct": 0,
+        "total": 24,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "starter_patterns": {
+        "correct": 3,
+        "total": 16,
+        "scorable": 16,
+        "success_rate_all_cases": 0.1875,
+        "accuracy_scorable_cases": 0.1875,
+        "coverage": 1.0
+      },
+      "starter_transfer": {
+        "correct": 4,
+        "total": 8,
+        "scorable": 8,
+        "success_rate_all_cases": 0.5,
+        "accuracy_scorable_cases": 0.5,
+        "coverage": 1.0
+      }
+    },
+    "by_category": {
+      "categories_and_analogies": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "domain_context": {
+        "correct": 1,
+        "total": 8,
+        "scorable": 8,
+        "success_rate_all_cases": 0.125,
+        "accuracy_scorable_cases": 0.125,
+        "coverage": 1.0
+      },
+      "domain_place": {
+        "correct": 2,
+        "total": 8,
+        "scorable": 8,
+        "success_rate_all_cases": 0.25,
+        "accuracy_scorable_cases": 0.25,
+        "coverage": 1.0
+      },
+      "everyday_knowledge": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "grammar": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "negation": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "new_wording": {
+        "correct": 4,
+        "total": 8,
+        "scorable": 8,
+        "success_rate_all_cases": 0.5,
+        "accuracy_scorable_cases": 0.5,
+        "coverage": 1.0
+      },
+      "opposites": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "reference": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "sequence": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "spatial_relations": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      }
+    }
+  },
+  "final": {
+    "suite_id": "synthetic-language-v1",
+    "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+    "model_sha256": "78e6f0f8dc1b2f8e0f5fc1381b6c7c40d4c66bbdd483966ba6a8ab2d0bd5154d",
+    "stage": "final",
+    "settings": {
+      "seed": 2026,
+      "temperature": 0.8,
+      "max_tokens": 24
+    },
+    "metric": "highest-probability answer among four single-word choices; ties get zero",
+    "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
+    "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
+    "overall": {
+      "correct": 24,
+      "total": 48,
+      "scorable": 24,
+      "success_rate_all_cases": 0.5,
+      "accuracy_scorable_cases": 1.0,
+      "coverage": 0.5
+    },
+    "by_group": {
+      "extend_corpus": {
+        "correct": 0,
+        "total": 24,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "starter_patterns": {
+        "correct": 16,
+        "total": 16,
+        "scorable": 16,
+        "success_rate_all_cases": 1.0,
+        "accuracy_scorable_cases": 1.0,
+        "coverage": 1.0
+      },
+      "starter_transfer": {
+        "correct": 8,
+        "total": 8,
+        "scorable": 8,
+        "success_rate_all_cases": 1.0,
+        "accuracy_scorable_cases": 1.0,
+        "coverage": 1.0
+      }
+    },
+    "by_category": {
+      "categories_and_analogies": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "domain_context": {
+        "correct": 8,
+        "total": 8,
+        "scorable": 8,
+        "success_rate_all_cases": 1.0,
+        "accuracy_scorable_cases": 1.0,
+        "coverage": 1.0
+      },
+      "domain_place": {
+        "correct": 8,
+        "total": 8,
+        "scorable": 8,
+        "success_rate_all_cases": 1.0,
+        "accuracy_scorable_cases": 1.0,
+        "coverage": 1.0
+      },
+      "everyday_knowledge": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "grammar": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "negation": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "new_wording": {
+        "correct": 8,
+        "total": 8,
+        "scorable": 8,
+        "success_rate_all_cases": 1.0,
+        "accuracy_scorable_cases": 1.0,
+        "coverage": 1.0
+      },
+      "opposites": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "reference": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "sequence": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      },
+      "spatial_relations": {
+        "correct": 0,
+        "total": 3,
+        "scorable": 0,
+        "success_rate_all_cases": 0.0,
+        "accuracy_scorable_cases": null,
+        "coverage": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "file": "pamplona_negation.txt",
+      "bytes": 6527,
+      "sha256": "2f725947a18632103ad5f4641896d216f1fee751d246fba88191ff1a563e364e",
+      "warnings": [],
+      "characters": 6527,
+      "passages": 246,
+      "unique_passages": 195,
+      "preview": "mikel did not wear a hat . he wore a sash instead . mikel wore a sash .\nunai did not buy flowers . he bought a scarf instead . unai bought a scarf .\nthe jacket is not blue . it is white . the jacket is white .\npeio did not visit the market . he visited the cathedral instead . peio visited the cathed"
+    },
+    {
+      "file": "pamplona_opposites.txt",
+      "bytes": 6332,
+      "sha256": "e27440290af1badf696caf46efb292cce554c56a48d90b7638eb8bf6e28d8cd9",
+      "warnings": [],
+      "characters": 6332,
+      "passages": 114,
+      "unique_passages": 110,
+      "preview": "elena said the bar was noisy during the festival , but the chapel nearby was quiet .\nduring san fermin the festival felt deep , and its opposite is shallow .\nbefore sunrise the window of the hotel was closed . after the parade it was open .\nthe opposite of dangerous is safe .\nthe opposite of happy i"
+    }
+  ],
+  "ignored": [],
+  "external_passages": 360,
+  "mode": "classroom",
+  "base_passages": 6200,
+  "unique_passages": 4897,
+  "new_unique_passages": 305,
+  "duplicates_removed": 1663,
+  "max_passage_tokens": 47,
+  "split_unit": "deduplicated passage, not source file"
+}
