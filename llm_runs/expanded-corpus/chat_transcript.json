@@ -6,9 +6,34 @@
   "max_tokens": 24,
   "turns": [
     {
-      "prompt": "the customer",
+      "prompt": "what is the meaning of life",
       "seed": 2026,
-      "response": "ordered the item after checking the price .",
+      "response": "the hot .",
+      "unknown_prompt_words": [
+        "life",
+        "meaning",
+        "what"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "before dawn the streets of pamplona are",
+      "seed": 2027,
+      "response": "mentioned in the office .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the opposite of hot is",
+      "seed": 2028,
+      "response": "during a discussion of data .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "carmen did not enter the chapel . she entered the plaza instead . carmen entered",
+      "seed": 2029,
+      "response": ".",
       "unknown_prompt_words": [],
       "prompt_truncated": false
     }
