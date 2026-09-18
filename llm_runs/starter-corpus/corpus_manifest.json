@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "ignored": [],
+  "external_passages": 0,
+  "mode": "classroom",
+  "base_passages": 6200,
+  "unique_passages": 4592,
+  "new_unique_passages": 0,
+  "duplicates_removed": 1608,
+  "max_passage_tokens": 47,
+  "split_unit": "deduplicated passage, not source file"
+}

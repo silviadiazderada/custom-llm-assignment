@@ -1,0 +1,23 @@
+{
+  "excluded_passages": 160,
+  "case_ids": [
+    "lang_01",
+    "lang_02",
+    "lang_03",
+    "lang_04",
+    "lang_05",
+    "lang_06",
+    "lang_07",
+    "lang_08",
+    "lang_09",
+    "lang_10",
+    "lang_11",
+    "lang_12",
+    "lang_13",
+    "lang_14",
+    "lang_15",
+    "lang_16"
+  ],
+  "suite_sha256": "1d7c503f34d88260d0ac897bc36b8ba621cccc1950aef47e7121e69b2c1c9e1d",
+  "method": "normalized contiguous prompt match; not a semantic leakage detector"
+}
